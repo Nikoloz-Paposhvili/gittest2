@@ -1,0 +1,168 @@
+/**პირველი გვერდის სტილი და მთელი სხვა გვერდებისაც**/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin-left: 3%;
+}
+main {
+  margin-left: 5%;
+  width: 100%;
+  height: 300px;
+}
+footer {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+/**ეს ქმნის სლეშს **/
+#slash {
+  border-right: royalblue;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  margin-right: 2%;
+  padding-right: 2%;
+}
+/**სათავესში სამ ელემენტს  ალაგებს ჰორიზონტალურად**/
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+.flexbox > div {
+  margin: 2%;
+}
+/**სათავესში სამ ელემენტს აქცევს ღილაკად**/
+button {
+  color: royalblue;
+  background-color: rgba(151, 60, 50, 0);
+  border: none;
+}
+/**პირველი გვერდის პირველ ღილაკს აწითლებს **/
+#mtavari {
+  color: red;
+}
+#siaxleebi {
+  color: red;
+}
+#contactebi {
+  color: red;
+}
+/**ეს ქმნის იმ ყუთს სადაც არის icon-ები**/
+.socialbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+.socialbox > div {
+  width: 5%;
+}
+/**ეს აპატარავებს შავ icon-ებს **/
+.smaller {
+  width: 100%;
+}
+
+/**აპატარავებს პარაგრაფს**/
+.sized {
+  width: 90%;
+}
+/**ქმნის ყუთს რომელშიც წერია ციფრები**/
+.bluebox {
+  width: 5%;
+  height: max-content;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  font-size: 30pt;
+  margin: 0;
+}
+.May {
+  color: royalblue;
+  margin: 0;
+  font-size: 15pt;
+}
+.boxed {
+  box-sizing: border-box;
+}
+#movedright1 {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+#movedright2 {
+  position: absolute;
+  left: 30%;
+  top: 126%;
+}
+#movedright3 {
+  position: absolute;
+  left: 30%;
+  top: 222%;
+}
+
+#smaller {
+  width: 90%;
+  margin-bottom: 10%;
+}
+#FEATURED {
+  font-size: 15pt;
+  margin-bottom: 2%;
+}
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 90%;
+}
+.flexbox2 > div {
+  background-color: rgba(128, 128, 128, 0.219);
+  width: 50%;
+}
+.getblue {
+  color: royalblue;
+  font-size: 13pt;
+}
+#paragrathPlaced {
+  position: absolute;
+  top: 139%;
+  left: 20%;
+  font-size: 13pt;
+  width: 20%;
+}
+.moreright {
+  margin: 5%;
+}
+#paragrathPlaced2 {
+  position: absolute;
+  top: 139%;
+  right: 18%;
+  font-size: 13pt;
+  width: 20%;
+}
+#contactinfo {
+  padding-top: 40%;
+  padding: 5%;
+  width: 25%;
+}
+#contactinfo > h3 {
+  margin-left: 10%;
+  color: royalblue;
+}
+#contactinfo > ul {
+  color: gray;
+}
+#greyblock {
+  background-color: rgba(128, 128, 128, 0.219);
+  height: 230%;
+}
+#googlemap {
+  width: 60%;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
